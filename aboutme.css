@@ -45,6 +45,11 @@ h2 {
 }
 
 @media only screen and (max-width: 560px){
+	
+	body{
+		font:100px;
+	}
+	
 	.img-about{
 		width:300px;
 	}
@@ -55,5 +60,5 @@ h2 {
   height: 2.5rem;
 	}
 	}
-body: 100px;
+	
 }
