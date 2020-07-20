@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="crossover.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet" type="text/css">
+
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          
+          <div class="navbar-brand">
+            
+            <h1> Bhorchaj's Blog</h1>
+            
+          </div>
+        </div>
+          </nav>
+  </header>
+
+<div class="w3-container">
+  <h2>Crossover Art</h2>
+  <p>To see two or more pieces of art converge and give birth to a new and fresh entity of art is beautiful. And that is what crossovers necessarily give us, an art child.</p>
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="co1.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-small w3-container w3-padding-16 w3-black ">
+    Wake up Sid >< The Kiss
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co2.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-small w3-container w3-padding-16 w3-black">
+    Little Things >< The Night Cafe
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co6.jpg" style="width:100%">
+  <div class="w3-display-toleft w3-small w3-container w3-padding-16 w3-black">
+    ZNMD >< Monet Landscape
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co4.png" style="width:100%">
+  <div class="w3-display-topright w3-small w3-container w3-padding-16 w3-black">
+    Piku >< Van Gogh landscape
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co11.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-small w3-container w3-padding-16 w3-black">
+    Vitruvian Man >< Spark of Life >< The Scream
+  </div>
+</div>
+
+
+<div class="w3-display-container mySlides">
+  <img src="co7.jpeg" style="width:100%">
+  <div class="w3-display-topright w3-small w3-container w3-padding-16 w3-black">
+    The Last Supper>< American Gothic>< Sunflowers>< Persistance of Memory>< The Lovers II
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co8.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-small w3-container w3-padding-16 w3-black">
+    Starry Night>< Creation Of Adam>< Great Wave Of Kanagawa
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="co9.jpg" style="width:100%">
+  <div class="w3-display-topright w3-small w3-container w3-padding-16 w3-black">
+    Creation Of Adam >< Fauvism
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+
+<div class="w3-container">
+  
+  <p>~To see two or more pieces of art converge and give birth to a new and fresh entity of art is beautiful. And that is what crossovers necessarily give us, an art child.</p>
+  <p>
+    ~Crossovers are not mixing random artworks or movie references though, you need to look for one converging point.
+  </p>
+  <p> ~It can be in the emotion, in the surrounding, the relation, the characters and so on.</p>
+  <p> ~To see beyond what your eyes are showing you, to pull out old memories and to imagine the past and present together is what makes this genre come to reality mostly.</p>
+</div>
+     
+
+<div class="w3-container">
+  
+  <p></p>
+</div>
+
+
+
+<div class="w3-row w3-container">
+  <p>Emotions via Crossover</p>
+  <div class="w3-col s4 w3-black w3-center">
+
+    <p> <img class="media" src="co3.jpg" style="width:100%"></p>
+    <p> Portrait of a Lady on Fire >< The Cliff,Etretat,Sunset</p>
+  </div>
+  <div class="w3-col s4 w3-black w3-center">
+    <p><img class="media" src="co5.jpg" style="width:95%"></p>
+    <p> Tamasha >< The Night Cafe </p>
+  </div>
+  <div class="w3-col s4 w3-black w3-center">
+    <p><img class="media" src="img10.png" style="width:90%"></p>
+    <P> Joker >< The Old Guitarist >< Sleeping Drinker</P>
+  </div>
+</div>
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<footer id="footer-id" class="panel-footer">
+    <div class="container">
+      <div class="row">
+       
+        <section id="address" class="col-sm-4">
+          <span>Note:</span><br>
+          Thank you for visiting<br>
+          Hope to see you soon!
+          <p><a href="myart1.html"> Take me to more art.</a></p>
+          <p><a href="indexblog.html"> Let's go home.</a></p>
+          <hr class="visible-xs">
+        </section>
+       
+      </div>
+      <div class="text-center">&copy; Copyright Amrita Bhattacharya</div>
+    </div>
+  </footer>
+</body>
+</html>
