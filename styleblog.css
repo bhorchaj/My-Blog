@@ -1,0 +1,132 @@
+h1 {
+	 margin: 6px;
+	 padding: 10px;
+	 padding-left: 0;
+	 font-size: 35px;
+	color: black;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 900;
+	text-align: center;
+	 
+}
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 700;
+	background-color: black;
+
+}
+
+/**header **/
+
+#header-nav {
+	background-color: #F7C10F;
+	border-radius:  0;
+	border: 2px solid black;
+	
+}
+
+
+.img-about {
+	width:300px;
+}
+
+.img-about2 {
+	width: 350px;
+}
+
+.img-about3 {
+	width: 250px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	margin-top: 30px;
+}
+
+
+
+/*OUR MENU*/
+#our-menu h1{
+	font-size: 29px; 
+	text-align: center;
+
+}
+
+
+
+.box {
+	background-color: gray;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+   
+.navbar-toggle {
+	
+	float: right;
+	padding-bottom: -30px
+	
+
+}
+#collapsable-nav {
+	padding-bottom: 50px;
+
+}
+
+* FOOTER */
+#footer-id {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #000080;
+  border-top: 0;
+}
+
+
+@media only screen and (max-width: 500px){
+	.img-about2{
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.img-about1{
+		width: 100px;
+	}
+}
+
+.output {
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color:white;
+  h1 {
+    font-size:30px;
+  }
+}
+
+
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background:white;
+  color: black;
+  align-self: center;
+}
