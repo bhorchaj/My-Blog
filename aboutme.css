@@ -1,0 +1,42 @@
+body {
+  background-color:black;
+  text-align: center;
+  color:#fff;
+  padding-top: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+* { color:#fff; text-decoration: none;}
+
+
+
+#header-nav {
+	background-color: #F7C10F;
+	border-radius:  0;
+	border: 2px solid black;
+	padding-top: 0;
+	font-color: black;
+	
+}
+h2 {
+	color: black;
+	font-size: 30px;
+}
+.img-about {
+	width: 700px;
+}
+
+ FOOTER */
+#footer-id {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-top: 0;
+}
+
+@media only screen and (max-width: 560px){
+	.img-about{
+		width:300px;
+	}
+}
